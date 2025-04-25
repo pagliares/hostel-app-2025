@@ -13,5 +13,13 @@ public class TestCustomer {
         guest2.setLastName("Daza");
         System.out.println(guest2.getName() + " " + guest.getLastName());
 
+        Address address = new Address("Rua X", "123", "Alfenas", "MG");
+
+        guest2.setAddress(address);
+
+        System.out.println(guest2.getAddress().getCity());
+
+
+
     }
 }

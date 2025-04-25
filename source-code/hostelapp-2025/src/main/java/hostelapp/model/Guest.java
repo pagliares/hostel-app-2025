@@ -8,6 +8,7 @@ import lombok.Setter;
 public class Guest {
     private String name;
     private String lastName;
+    private Address address;
 
     // Toda primeira linha de um construtor em Java ou é uma chamada super() ou um this () recursivo
     // Vamos aprender a palavra reservada super no momento que estudarmos herança
